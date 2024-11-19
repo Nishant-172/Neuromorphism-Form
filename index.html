@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Neumorphism Contact Form</title>
+    <link rel="stylesheet" href="style.css"> <!-- CSS link kiya hai external file se -->
+</head>
+<body>
+    <div class="form-container"> <!-- Form ko center mein display karne ke liye container -->
+        <form action="" method="POST"> <!-- Form ka action aur method define kiya -->
+            <h2>Contact Us</h2> <!-- Form ka heading -->
+            
+            <div class="input-group"> <!-- Input field ka group -->
+                <label for="name">Name</label> <!-- Label for name input field -->
+                <input type="text" id="name" name="name" required> <!-- Name ka input field -->
+            </div>
+            
+            <div class="input-group"> <!-- Email input field ka group -->
+                <label for="email">Email</label> <!-- Label for email input field -->
+                <input type="email" id="email" name="email" required> <!-- Email ka input field -->
+            </div>
+            
+            <div class="input-group"> <!-- Message input field ka group -->
+                <label for="message">Message</label> <!-- Label for message input field -->
+                <textarea id="message" name="message" rows="4" required></textarea> <!-- Message ka text area -->
+            </div>
+
+            <button type="submit" class="submit-btn">Submit</button> <!-- Submit button -->
+        </form>
+    </div>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* Body ko background aur font style diya */
+body {
+    background-color: #e0e5ec; /* Light grey background color */
+    font-family: 'Arial', sans-serif; /* Font family set kiya */
+    display: flex;
+    justify-content: center; /* Center mein form ko align kiya */
+    align-items: center; /* Vertically bhi center kiya */
+    height: 100vh; /* Full screen height */
+    margin: 0; /* Body ki margin hata di */
+}
+
+/* Form container ka design */
+.form-container {
+    background-color: #e0e5ec; /* Light grey background */
+    padding: 30px;
+    border-radius: 15px; /* Rounded corners diye */
+    box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.1), -8px -8px 15px rgba(255, 255, 255, 0.9); /* Neumorphism effect */
+    width: 100%;
+    max-width: 400px; /* Maximum width ko 400px set kiya */
+}
+
+/* Heading style */
+h2 {
+    text-align: center; /* Center mein heading ko align kiya */
+    color: #333; /* Dark grey color diya */
+    margin-bottom: 20px; /* Heading ke neeche thoda gap diya */
+}
+
+/* Input fields ka design */
+.input-group {
+    margin-bottom: 20px; /* Har input field ke neeche gap diya */
+}
+
+/* Label ka design */
+label {
+    display: block; /* Label ko block element banaya */
+    margin-bottom: 8px; /* Label aur input ke beech gap diya */
+    color: #555; /* Slightly dark grey color */
+}
+
+/* Input fields aur textarea ka styling */
+input[type="text"], input[type="email"], textarea {
+    width: 100%; /* Input field ko 100% width di */
+    padding: 10px; /* Padding diya input field ko */
+    border-radius: 10px; /* Rounded corners diye */
+    border: 1px solid #ccc; /* Border color light grey rakha */
+    background-color: #e0e5ec; /* Neumorphic light grey background */
+    box-shadow: inset 4px 4px 6px rgba(0, 0, 0, 0.1), inset -4px -4px 6px rgba(255, 255, 255, 0.7); /* Inset Neumorphism effect */
+    font-size: 16px; /* Font size set kiya */
+}
+
+/* Button ka design */
+.submit-btn {
+    background-color: #4caf50; /* Button ka green color */
+    color: white; /* Text ko white color diya */
+    padding: 12px 25px; /* Padding diya button ko */
+    border: none; /* Border hata di */
+    border-radius: 10px; /* Rounded corners diye */
+    cursor: pointer; /* Pointer cursor diya */
+    width: 100%; /* Button ki width 100% rakhi */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1), 0 -4px 6px rgba(255, 255, 255, 0.7); /* Button par shadow effect diya */
+    font-size: 16px; /* Button text size set kiya */
+}
+
+/* Button par hover effect */
+.submit-btn:hover {
+    background-color: #45a049; /* Hover par button ka color dark green ho jata hai */
+}
